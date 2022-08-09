@@ -1,10 +1,10 @@
-#Mi proyecto final 
+# Mi proyecto final 
 
 Este proyecto lo hice basando en la tienda [KALAKA](https://www.instagram.com/kalaka.store/)
 
 ![imgKLK](./public/KLK.PNG)
 
-####Es una "simulacion" de ecommerce de dicho local, en el cual se puede ...
+#### Es una "simulacion" de ecommerce de dicho local, en el cual se puede ...
 
 * Ver una lista de productos
 ![imgKLK](./public/KLK1.PNG)
