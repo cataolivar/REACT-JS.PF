@@ -18,8 +18,9 @@ Este proyecto lo hice basando en la tienda [KALAKA](https://www.instagram.com/ka
 * Un formulario
 ![imgKLK](./public/KLK4.PNG)
 
-*Y por ultima generar una compra con un ID
+* Y por ultima generar una compra con un ID
 ![imgKLK](./public/KLK5.PNG)
 
+>LINK DE LA PAGINA [KLKSTORE](https://klkstore-nta46liaw-cataolivar.vercel.app/)
 
 
