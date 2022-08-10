@@ -21,6 +21,6 @@ Este proyecto lo hice basando en la tienda [KALAKA](https://www.instagram.com/ka
 * Y por ultima generar una compra con un ID
 ![imgKLK](./public/KLK5.PNG)
 
->LINK DE LA PAGINA [KLKSTORE](https://klkstore-nta46liaw-cataolivar.vercel.app/)
+>LINK DE LA PAGINA [KLKSTORE](https://klkstore.vercel.app)
 
 
