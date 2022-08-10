@@ -10,20 +10,21 @@ const CartContext = ({children}) =>
     
 
     useEffect ( () => {
+        setQtyProducts(products.reduce((acc, product) => acc + product.qty, 0));
     }, [products])
 
-     const getQtyProducts = () => {
+    /* const getQtyProducts = () => {
         let qty = 0;
         products.forEach(product => qty += product.qty);
         setQtyProducts(qty);
-    }
+    }*/
 
     const addProduct = (product) => {
 
         if(isInCart(product.id)) {
 
-            const found = products.find(p => p.id === product.id);
-            const index = products.indexOf(found);
+           // const found = products.find(p => p.id === product.id);
+           const index = products.findIndex(p => p.id === product.id);
             const aux = [...products];
             aux[index].qty += product.qty;
             setProducts(aux);
@@ -35,7 +36,7 @@ const CartContext = ({children}) =>
 
     const deleteProduct = (id) => {
        setProducts (products.filter (product => product.id !== id));
-       getQtyProducts();
+      // getQtyProducts();
     }
 
     const isInCart = (id) => {
