@@ -8,7 +8,6 @@ const CartContext = ({children}) =>
     const [products, setProducts] = useState ([]);
     const [qtyProducts, setQtyProducts] = useState(0)
     
-   
 
     useEffect ( () => {
     }, [products])
